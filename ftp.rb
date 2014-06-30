@@ -1,6 +1,5 @@
 require 'rubygems'
 require 'net/ftp'
-require 'fileutils'
 
 #FTP Details
 ftpurl = 'ftp.server.ip'
