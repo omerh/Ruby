@@ -1,4 +1,3 @@
-#this script requiers to have smbclient (linux) or brew install samba (Mac)
 require 'sambal'
 
 targetservers = [ 'serverip', 'serverip']
