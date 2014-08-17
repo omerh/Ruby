@@ -15,5 +15,4 @@ foreach ($zone in $zonelist)
             "DNSCMD $dnsserver /recordadd $zonename $host $type $ip" >> C:\out_dnscmd.txt
         }
     }
-
 }
