@@ -1,3 +1,10 @@
+=begin
+this script requiers to have samba in order to use sambal
+ubuntu: apt-get install smbclient
+mac: brew install samba
+gem: sambal, httparty, zip
+=end
+
 require 'rubygems'
 require 'date'
 require 'httparty'
