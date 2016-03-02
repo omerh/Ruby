@@ -9,7 +9,7 @@ indexers = 4
 
 @rep = {}
 
-uri = URI.parse("https://api.github.com/orgs/#{org}/repos?per_page=400")
+uri = URI.parse("https://api.github.com/orgs/#{org}/repos?per_page=1000")
 http = Net::HTTP.new(uri.host, uri.port)
 http.use_ssl = true
 http.verify_mode = OpenSSL::SSL::VERIFY_NONE
